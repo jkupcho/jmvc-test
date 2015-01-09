@@ -1,0 +1,24 @@
+{
+  "name": "jmvc-test",
+  "version": "0.0.1",
+  "authors": [
+    "jkupcho"
+  ],
+  "description": "JavascriptMVC with Bower",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "canjs": "git://github.com/bitovi/canjs.git#1.1.7",
+    "jquerypp": "1.0.1"
+  },
+  "devDependencies": {
+    "funcunit": "jmvc"
+  }
+}
